@@ -19,10 +19,6 @@ npm install --save-dev gh-pages
 Add predeploy and deploy scripts under the scripts section:
 
 "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 }
